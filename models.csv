@@ -9,7 +9,7 @@ FALSE,CDA1-Model,1.0,CDA1,CDA1,,
 FALSE,Carbamazepine-Model,2.0,Carbamazepine-Model,Carbamazepine,,
 FALSE,Cimetidine-Model,2.0,Cimetidine-Model,Cimetidine,,
 FALSE,Clarithromycin-Model,2.0,Clarithromycin-Model,Clarithromycin,,
-TRUE,https://github.com/NinaHanke/Test-Model,main,https://github.com/NinaHanke/Test-Model/Test-Model.json,Test,,
+TRUE,https://github.com/NinaHanke/Test-Model,master,https://github.com/NinaHanke/Test-Model/Test-Model.json,Test,,
 FALSE,Dapagliflozin-Model,2.0,Dapagliflozin-Model,Dapagliflozin,,
 FALSE,Digoxin-Model,2.0,Digoxin-Model,Digoxin,,Digoxin-Pediatrics/v1.0/Digoxin_Pediatrics.json
 FALSE,Efavirenz-Model,2.0,Efavirenz-Model,Efavirenz,,
