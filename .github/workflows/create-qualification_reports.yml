@@ -17,18 +17,7 @@ env:
   GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  check-branch:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Validate source branch
-      run: |
-        if [ "${{ github.ref_name }}" = "main" ]; then
-          echo "::error::Please call the workflow not from the main branch"
-          exit 1
-        fi
-
   read_inputs:
-    needs: check-branch
     runs-on: ubuntu-latest
     outputs:
       tools_table: ${{ steps.tools_table.outputs.tools-table }}
